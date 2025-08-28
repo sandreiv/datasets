@@ -29,7 +29,7 @@ movies-api/
 ├── Dockerfile           # Imagen Docker para la aplicación
 ├── docker-compose.yml   # Orquestación de contenedores
 └── README.md            # Documentación del proyecto
-
+```
 ---
 
 ## ⚙️ Configuración
