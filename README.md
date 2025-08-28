@@ -16,14 +16,19 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 ---
 
 ## 📂 Estructura del proyecto
-
+```bash
 movies-api/
-│── src/ # Código fuente
-│── build.gradle # Configuración Gradle
-│── settings.gradle
-│── Dockerfile
-│── docker-compose.yml
-│── README.md
+├── src/                 # Código fuente principal
+│   ├── main/            # Código de la aplicación
+│   │   ├── java/        # Paquetes Java (controladores, servicios, repositorios, entidades)
+│   │   └── resources/   # application.properties, data.sql, schema.sql, etc.
+│   └── test/            # Pruebas unitarias y de integración
+│
+├── build.gradle         # Configuración de dependencias Gradle
+├── settings.gradle      # Configuración de Gradle
+├── Dockerfile           # Imagen Docker para la aplicación
+├── docker-compose.yml   # Orquestación de contenedores
+└── README.md            # Documentación del proyecto
 
 ---
 
